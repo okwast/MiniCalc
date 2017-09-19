@@ -54,10 +54,12 @@ extension CalculatorViewController: CalculatorDelegate {
         currentTerm = TermParser.parseTerm(from: string)
         termLabelView.termString = string
     }
+    
     func resetCalculation() {
         termLabelView.termString = currentTermString
         termLabelView.termString = ""
     }
+    
     func calculate() {
         guard
             let currentTerm = currentTerm,

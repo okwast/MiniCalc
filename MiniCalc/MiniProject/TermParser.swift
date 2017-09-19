@@ -23,7 +23,7 @@ struct TermParser {
         return nil
     }
     
-    // Not so pretty parsing, but to work with a grammar is to time consuming for one day^^
+    // Not so pretty parsing, but to work with a grammar is too time consuming for one day^^
     private static func parseOperandTerm(from tokens: [String]) -> Term? {
         guard tokens.count >= 3 else {
             return nil
