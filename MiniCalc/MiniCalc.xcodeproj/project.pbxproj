@@ -269,7 +269,6 @@
 				TargetAttributes = {
 					9A73DE261F713EF00023BAEA = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = BZ727W9YC7;
 						ProvisioningStyle = Automatic;
 					};
 					9A73DE3A1F713EF00023BAEA = {
@@ -502,10 +501,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BZ727W9YC7;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MiniProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = de.okw.MiniCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -515,10 +513,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BZ727W9YC7;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MiniProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = de.okw.MiniCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
